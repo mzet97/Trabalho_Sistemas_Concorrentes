@@ -2,20 +2,22 @@
 
 Este repositório contém a implementação das etapas do trabalho de Sistemas Concorrentes.
 
+## Requisitos
+- Ambiente Unix/Linux ou WSL 2 em Windows
+- `gcc` e `make` instalados
+- Terminal com suporte a ferramentas POSIX
+
 ## Estrutura do Projeto
 
 ```
 Trabalho_Sistemas_Concorrentes/
-├── etapa1.c                    # Implementação da Etapa 1 (Unix/Linux)
-├── etapa1_windows.c            # Implementação da Etapa 1 (Windows)
-├── etapa1_windows.exe          # Executável da Etapa 1 para Windows
-├── etapa2.c                    # Implementação da Etapa 2 (Unix/Linux)
-├── etapa2_windows.c            # Implementação da Etapa 2 (Windows)
-├── etapa2_windows.exe          # Executável da Etapa 2 para Windows
-├── compile_and_run.bat         # Script para compilar e executar Etapa 1 (Windows)
-├── compile_and_run_etapa2.bat  # Script para compilar e executar Etapa 2 (Windows)
-├── Makefile                    # Arquivo para compilação (Unix/Linux)
-└── README.md                   # Este arquivo
+├── Makefile            # Compilação (Unix/Linux)
+├── etapa1.c            # Etapa 1 (Unix/Linux)
+├── etapa2.c            # Etapa 2 (Unix/Linux)
+├── etapa3.c            # Etapa 3 — Semáforos (Unix/Linux)
+├── etapa_signal.c      # Versão com sinais (Unix/Linux)
+├── s1.md               # Simulações Dijkstra/Peterson (manual)
+└── s2.md               # Produtor-Consumidor: semáforos e Redes de Petri
 ```
 
 ## Etapa 1: Criação de Processos, Fork/Wait, Geração de Números Aleatórios
@@ -43,22 +45,9 @@ Trabalho_Sistemas_Concorrentes/
 - Usa `wait()` para sincronização entre processos
 - Requer sistema Unix/Linux para compilação e execução
 
-#### Versão Windows (`etapa1_windows.c`)
-- Utiliza threads para simular processos filhos
-- Usa `WaitForMultipleObjects()` para sincronização
-- Compatível com Windows e compiladores MinGW/GCC
+ 
 
 ### Compilação e Execução
-
-#### No Windows (versão atual):
-```bash
-# Opção 1: Usar o script batch (mais fácil)
-compile_and_run.bat
-
-# Opção 2: Compilação manual
-gcc etapa1_windows.c -o etapa1_windows.exe -lm
-.\etapa1_windows.exe
-```
 
 #### No Unix/Linux (usando Makefile):
 ```bash
@@ -72,7 +61,7 @@ make run1
 make clean
 ```
 
-#### No Unix/Linux (compilação manual):
+#### Compilação manual:
 ```bash
 gcc etapa1.c -o etapa1 -lm
 ./etapa1
@@ -127,16 +116,6 @@ Filho 0 (PID: 1235) - Passo 1/100 - Dormindo por 45 ms
 
 ### Compilação e Execução da Etapa 2
 
-#### No Windows:
-```bash
-# Opção 1: Usar o script batch
-compile_and_run_etapa2.bat
-
-# Opção 2: Compilação manual
-gcc etapa2_windows.c -o etapa2_windows.exe -lm
-.\etapa2_windows.exe
-```
-
 #### No Unix/Linux:
 ```bash
 # Usando Makefile
@@ -152,8 +131,67 @@ gcc etapa2.c -o etapa2 -lm
 
 - **Condições de Corrida**: O programa demonstra condições de corrida (race conditions) propositalmente, pois não há sincronização entre os processos
 - **Valores Esperados**: Com 3 filhos × 100 iterações = 300 incrementos/decrementos, mas devido às condições de corrida, os valores finais podem variar
-- **Memória Compartilhada**: Unix/Linux usa `shmget/shmat`, Windows simula com variáveis globais entre threads
+- **Memória Compartilhada**: Usa `shmget/shmat` em Unix/Linux
 
-## Próximas Etapas
+## Etapas Adicionais
 
-As etapas 3, 4, 5 e 6 serão implementadas em arquivos separados conforme o progresso do trabalho.
+- **Etapa 3 (Semáforos)**: `etapa3.c` usa `semget/semop/semctl` para proteger atualizações de variáveis compartilhadas e garantir consistência.
+- **Sinais (etapa_signal)**: `etapa_signal.c` implementa comunicação pai-filho por sinais (`SIGUSR1`) e mede tempos/estatísticas.
+- **S1 (Dijkstra/Peterson)**: `s1.md` contém simulações manuais das soluções clássicas de exclusão mútua.
+- **S2 (Produtor-Consumidor)**: `s2.md` apresenta cenários manuais, Redes de Petri e roteiro de simulação no JSARP.
+
+## Etapa 3 — Semáforos (System V)
+- Objetivo: garantir consistência das variáveis compartilhadas usando semáforos (`semget/semop/semctl`).
+- Recursos: memória compartilhada (`shmget/shmat`) e array de semáforos (duas posições para operações distintas).
+- Comandos:
+  - `make etapa3` para compilar
+  - `make run3` para executar
+- Resultado esperado: valores finais estáveis (ex.: `Primeira variável=300`, `Segunda variável=0`).
+
+## Etapa Signal — Comunicação por Sinais
+- Objetivo: comunicação pai–filho via `SIGUSR1` com `sigaction` (`SA_SIGINFO`) e contagem de sinais recebidos.
+- Comandos:
+  - `make etapa_signal` para compilar
+  - `make run_signal` para executar
+- Observações: handler identifica PID do remetente; o pai aguarda filhos com `wait()` e contabiliza sinais.
+
+## S1 — Dijkstra e Peterson
+- Arquivo: `s1.md`
+- Conteúdo:
+  - Simulações manuais dos protocolos (cenários que funcionam e falham).
+  - Diagramas Mermaid de fluxo e sequência para Dijkstra (semáforo) e Peterson.
+- Visualização:
+  - Use um preview Markdown com suporte a Mermaid ou exporte os blocos para SVG/PNG.
+
+## S2 — Produtor-Consumidor (Semáforos e Redes de Petri)
+- Arquivo: `s2.md`
+- Conteúdo:
+  - Simulação manual sem semáforo e com sincronização sem exclusão mútua.
+  - Solução completa [`item`, `vaga`, `mutex`] com grafo de lugares/transições e árvore de alcançabilidade (N=2, 1P/1C).
+  - Diagramas Mermaid (fluxos e sequência) e roteiro de uso no JSARP para comprovação.
+- JSARP:
+  - Modele lugares `Itm`, `Vag`, `Mtx`, `P_out`, `P_in`, `C_out`, `C_in` e transições `Put`, `Put_done`, `Get`, `Get_done`.
+  - Valide `Itm+Vag=N` e exclusão mútua via `Mtx`.
+
+## Comandos Rápidos (Makefile)
+- `make all`: compila todas as etapas (`etapa1`, `etapa2`, `etapa_signal`, `etapa3`)
+- `make run1`: executa a Etapa 1
+- `make run2`: executa a Etapa 2
+- `make run_signal`: executa `etapa_signal`
+- `make run3`: executa a Etapa 3 (semáforos)
+- `make clean`: remove os binários gerados
+
+## Visualização de Diagramas (Mermaid)
+- `s1.md` e `s2.md` incluem blocos Mermaid para fluxogramas e diagramas de chamadas
+- Para visualizar:
+  - Use um editor com suporte a Mermaid (extensões de preview Markdown)
+  - Se não houver renderização nativa, exporte para SVG/PNG ou use ferramentas online de Mermaid
+
+## JSARP (Simulações de Redes de Petri)
+- Em `s2.md` há o roteiro de modelagem e validação no JSARP
+- Crie lugares (`Itm`, `Vag`, `Mtx`, `P_out`, `P_in`, `C_out`, `C_in`) e transições (`Put`, `Put_done`, `Get`, `Get_done`)
+- Configure marcações iniciais (ex.: `N=2`: `Vag=2`, `Itm=0`, `Mtx=1`, `P_out=1`, `C_out=1`)
+- Dispare transições passo a passo para reproduzir a árvore de alcançabilidade manual
+- Validações principais:
+  - `Itm + Vag = N` sempre
+  - Exclusão mútua com `Mtx` (nunca `P_in=1` e `C_in=1` simultâneos)
