@@ -1,0 +1,51 @@
+# Compiled binaries and objects
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.lo
+*.out
+*.exe
+
+# Debug / coverage artifacts
+*.dSYM/
+*.map
+*.stackdump
+*.gcno
+*.gcda
+*.gcov
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pid
+core
+*.core
+
+# Build/output directories
+bin/
+build/
+out/
+dist/
+Debug/
+Release/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Generated run outputs
+out_etapa*.txt
