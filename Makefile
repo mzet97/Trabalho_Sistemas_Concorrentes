@@ -7,6 +7,8 @@ SRCS := etapa1.c etapa2.c etapa_signal.c etapa3.c
 
 .DEFAULT_GOAL := all
 
+all: $(TARGETS)
+
 %: %.c
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
@@ -31,6 +33,6 @@ run3: etapa3
 
 # Limpar
 clean:
-	rm -f $(TARGETS)
+	 rm -f $(TARGETS)
 
 .PHONY: clean run1 run2 run_signal run3 all
