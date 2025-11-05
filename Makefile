@@ -1,52 +1,36 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -lm
-TARGET_ETAPA1 = etapa1
-TARGET_ETAPA2 = etapa2
-TARGET_SIGNAL = etapa_signal
-TARGET_ETAPA3 = etapa3
-SOURCE_ETAPA1 = etapa1.c
-SOURCE_ETAPA2 = etapa2.c
-SOURCE_SIGNAL = etapa_signal.c
-SOURCE_ETAPA3 = etapa3.c
+CC := gcc
+CFLAGS := -Wall -Wextra -std=c99
+LDFLAGS := -lm
 
-# Compilar Etapa 1
-etapa1: $(SOURCE_ETAPA1)
-	$(CC) $(SOURCE_ETAPA1) -o $(TARGET_ETAPA1) $(CFLAGS)
+TARGETS := etapa1 etapa2 etapa_signal etapa3
+SRCS := etapa1.c etapa2.c etapa_signal.c etapa3.c
 
-# Compilar Etapa 2
-etapa2: $(SOURCE_ETAPA2)
-	$(CC) $(SOURCE_ETAPA2) -o $(TARGET_ETAPA2) $(CFLAGS)
+.DEFAULT_GOAL := all
 
-# Compilar Etapa Signal
-etapa_signal: $(SOURCE_SIGNAL)
-	$(CC) $(SOURCE_SIGNAL) -o $(TARGET_SIGNAL) $(CFLAGS)
+%: %.c
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
-# Compilar Etapa 3 (Semáforos)
-etapa3: $(SOURCE_ETAPA3)
-	$(CC) $(SOURCE_ETAPA3) -o $(TARGET_ETAPA3) $(CFLAGS)
+# Alvos (mantidos por clareza)
+etapa1: etapa1.c
+etapa2: etapa2.c
+etapa_signal: etapa_signal.c
+etapa3: etapa3.c
 
-# Executar Etapa 1
+# Executar
 run1: etapa1
-	./$(TARGET_ETAPA1)
+	./etapa1
 
-# Executar Etapa 2
 run2: etapa2
-	./$(TARGET_ETAPA2)
+	./etapa2
 
-# Executar Etapa Signal
 run_signal: etapa_signal
-	./$(TARGET_SIGNAL)
+	./etapa_signal
 
-# Executar Etapa 3
 run3: etapa3
-	./$(TARGET_ETAPA3)
+	./etapa3
 
-# Limpar arquivos compilados
+# Limpar
 clean:
-	rm -f $(TARGET_ETAPA1) $(TARGET_ETAPA2) $(TARGET_SIGNAL) $(TARGET_ETAPA3)
-
-# Compilar todas as etapas
-all: etapa1 etapa2 etapa_signal etapa3
+	rm -f $(TARGETS)
 
 .PHONY: clean run1 run2 run_signal run3 all
-.PHONY: run_signal etapa_signal
