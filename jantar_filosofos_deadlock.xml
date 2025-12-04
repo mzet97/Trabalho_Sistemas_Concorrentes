@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="Garfo0">
+            <graphics>
+                <position x="1140.0" y="500.0"/>
+            </graphics>
+            <name>
+                <value>Garfo0</value>
+                <graphics>
+                    <offset x="-7.0" y="31.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Garfo1">
+            <graphics>
+                <position x="960.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>Garfo1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Garfo2">
+            <graphics>
+                <position x="1320.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>Garfo2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Garfo3">
+            <graphics>
+                <position x="1560.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Garfo3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Garfo4">
+            <graphics>
+                <position x="1605.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>Garfo4</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P0_Comendo">
+            <graphics>
+                <position x="885.0" y="210.0"/>
+            </graphics>
+            <name>
+                <value>P0_Comendo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P0_Faminto">
+            <graphics>
+                <position x="855.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>P0_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P0_Pensando">
+            <graphics>
+                <position x="675.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>P0_Pensando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Comendo">
+            <graphics>
+                <position x="1245.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>P1_Comendo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Faminto">
+            <graphics>
+                <position x="1110.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>P1_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Pensando">
+            <graphics>
+                <position x="1260.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>P1_Pensando</value>
+                <graphics>
+                    <offset x="5.0" y="-2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Comendo">
+            <graphics>
+                <position x="1470.0" y="360.0"/>
+            </graphics>
+            <name>
+                <value>P2_Comendo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Faminto">
+            <graphics>
+                <position x="1395.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>P2_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Pensando">
+            <graphics>
+                <position x="1575.0" y="150.0"/>
+            </graphics>
+            <name>
+                <value>P2_Pensando</value>
+                <graphics>
+                    <offset x="3.0" y="-13.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P3_Comendo">
+            <graphics>
+                <position x="1755.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>P3_Comendo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P3_Faminto">
+            <graphics>
+                <position x="1725.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>P3_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P3_Pensando">
+            <graphics>
+                <position x="1875.0" y="450.0"/>
+            </graphics>
+            <name>
+                <value>P3_Pensando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P4_Comendo">
+            <graphics>
+                <position x="1455.0" y="630.0"/>
+            </graphics>
+            <name>
+                <value>P4_Comendo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P4_Faminto">
+            <graphics>
+                <position x="1650.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>P4_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P4_Pensando">
+            <graphics>
+                <position x="1920.0" y="765.0"/>
+            </graphics>
+            <name>
+                <value>P4_Pensando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="T0_Ficar_Faminto">
+            <graphics>
+                <position x="750.0" y="150.0"/>
+            </graphics>
+            <name>
+                <value>T0_Ficar_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T0_Pegar_Garfos">
+            <graphics>
+                <position x="1005.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T0_Pegar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T0_Soltar_Garfos">
+            <graphics>
+                <position x="765.0" y="330.0"/>
+            </graphics>
+            <name>
+                <value>T0_Soltar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1_Ficar_Faminto">
+            <graphics>
+                <position x="1140.0" y="135.0"/>
+            </graphics>
+            <name>
+                <value>T1_Ficar_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1_Pegar_Garfos">
+            <graphics>
+                <position x="1185.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>T1_Pegar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1_Soltar_Garfos">
+            <graphics>
+                <position x="1275.0" y="180.0"/>
+            </graphics>
+            <name>
+                <value>T1_Soltar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Ficar_Faminto">
+            <graphics>
+                <position x="1455.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T2_Ficar_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Pegar_Garfos">
+            <graphics>
+                <position x="1350.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>T2_Pegar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Soltar_Garfos">
+            <graphics>
+                <position x="1515.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>T2_Soltar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Ficar_Faminto">
+            <graphics>
+                <position x="1830.0" y="360.0"/>
+            </graphics>
+            <name>
+                <value>T3_Ficar_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Pegar_Garfos">
+            <graphics>
+                <position x="1650.0" y="435.0"/>
+            </graphics>
+            <name>
+                <value>T3_Pegar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Soltar_Garfos">
+            <graphics>
+                <position x="1785.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>T3_Soltar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Ficar_Faminto">
+            <graphics>
+                <position x="2025.0" y="675.0"/>
+            </graphics>
+            <name>
+                <value>T4_Ficar_Faminto</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Pegar_Garfos">
+            <graphics>
+                <position x="1410.0" y="525.0"/>
+            </graphics>
+            <name>
+                <value>T4_Pegar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Soltar_Garfos">
+            <graphics>
+                <position x="1575.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>T4_Soltar_Garfos</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="a01" source="P0_Pensando" target="T0_Ficar_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="697" y="226" curvePoint="false"/>
+            <arcpath id="001" x="756" y="162" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a02" source="T0_Ficar_Faminto" target="P0_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="766" y="162" curvePoint="false"/>
+            <arcpath id="001" x="852" y="136" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a03" source="P0_Faminto" target="T0_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="881" y="131" curvePoint="false"/>
+            <arcpath id="001" x="1012" y="127" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a04" source="Garfo0" target="T0_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1146" y="497" curvePoint="false"/>
+            <arcpath id="001" x="1017" y="147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a05" source="Garfo1" target="T0_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="975" y="312" curvePoint="false"/>
+            <arcpath id="001" x="1017" y="147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a06" source="T0_Pegar_Garfos" target="P0_Comendo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1011" y="137" curvePoint="false"/>
+            <arcpath id="001" x="909" y="213" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a07" source="P0_Comendo" target="T0_Soltar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="886" y="232" curvePoint="false"/>
+            <arcpath id="001" x="782" y="334" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a08" source="T0_Soltar_Garfos" target="P0_Pensando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="771" y="342" curvePoint="false"/>
+            <arcpath id="001" x="696" y="248" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a09" source="T0_Soltar_Garfos" target="Garfo0">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="781" y="348" curvePoint="false"/>
+            <arcpath id="001" x="1138" y="505" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a10" source="T0_Soltar_Garfos" target="Garfo1">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="782" y="341" curvePoint="false"/>
+            <arcpath id="001" x="957" y="328" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a11" source="P1_Pensando" target="T1_Ficar_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1257" y="133" curvePoint="false"/>
+            <arcpath id="001" x="1156" y="147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a12" source="T1_Ficar_Faminto" target="P1_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1152" y="162" curvePoint="false"/>
+            <arcpath id="001" x="1130" y="194" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a13" source="P1_Faminto" target="T1_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1129" y="220" curvePoint="false"/>
+            <arcpath id="001" x="1197" y="342" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a14" source="Garfo1" target="T1_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="986" y="329" curvePoint="false"/>
+            <arcpath id="001" x="1191" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a15" source="Garfo2" target="T1_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1317" y="330" curvePoint="false"/>
+            <arcpath id="001" x="1201" y="362" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a16" source="T1_Pegar_Garfos" target="P1_Comendo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1202" y="352" curvePoint="false"/>
+            <arcpath id="001" x="1247" y="293" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a17" source="P1_Comendo" target="T1_Soltar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1262" y="268" curvePoint="false"/>
+            <arcpath id="001" x="1287" y="207" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a18" source="T1_Soltar_Garfos" target="P1_Pensando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1287" y="177" curvePoint="false"/>
+            <arcpath id="001" x="1276" y="146" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a19" source="T1_Soltar_Garfos" target="Garfo1">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1281" y="192" curvePoint="false"/>
+            <arcpath id="001" x="985" y="320" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a20" source="T1_Soltar_Garfos" target="Garfo2">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1287" y="207" curvePoint="false"/>
+            <arcpath id="001" x="1326" y="312" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a21" source="P2_Pensando" target="T2_Ficar_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1572" y="158" curvePoint="false"/>
+            <arcpath id="001" x="1471" y="132" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a22" source="T2_Ficar_Faminto" target="P2_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1461" y="132" curvePoint="false"/>
+            <arcpath id="001" x="1415" y="194" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a23" source="P2_Faminto" target="T2_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1403" y="221" curvePoint="false"/>
+            <arcpath id="001" x="1362" y="402" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a24" source="Garfo2" target="T2_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1337" y="340" curvePoint="false"/>
+            <arcpath id="001" x="1362" y="402" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a25" source="Garfo3" target="T2_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1557" y="473" curvePoint="false"/>
+            <arcpath id="001" x="1366" y="422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a26" source="T2_Pegar_Garfos" target="P2_Comendo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1367" y="412" curvePoint="false"/>
+            <arcpath id="001" x="1467" y="376" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a27" source="P2_Comendo" target="T2_Soltar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1487" y="358" curvePoint="false"/>
+            <arcpath id="001" x="1527" y="267" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a28" source="T2_Soltar_Garfos" target="P2_Pensando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1531" y="252" curvePoint="false"/>
+            <arcpath id="001" x="1579" y="174" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a29" source="T2_Soltar_Garfos" target="Garfo2">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1521" y="252" curvePoint="false"/>
+            <arcpath id="001" x="1345" y="321" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a30" source="T2_Soltar_Garfos" target="Garfo3">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1527" y="267" curvePoint="false"/>
+            <arcpath id="001" x="1568" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a31" source="P3_Pensando" target="T3_Ficar_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1879" y="449" curvePoint="false"/>
+            <arcpath id="001" x="1842" y="387" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a32" source="T3_Ficar_Faminto" target="P3_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1836" y="372" curvePoint="false"/>
+            <arcpath id="001" x="1749" y="319" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a33" source="P3_Faminto" target="T3_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1729" y="324" curvePoint="false"/>
+            <arcpath id="001" x="1662" y="432" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a34" source="Garfo3" target="T3_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1586" y="472" curvePoint="false"/>
+            <arcpath id="001" x="1656" y="447" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a35" source="Garfo4" target="T3_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1622" y="567" curvePoint="false"/>
+            <arcpath id="001" x="1662" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a36" source="T3_Pegar_Garfos" target="P3_Comendo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1666" y="447" curvePoint="false"/>
+            <arcpath id="001" x="1752" y="434" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a37" source="P3_Comendo" target="T3_Soltar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1770" y="446" curvePoint="false"/>
+            <arcpath id="001" x="1797" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a38" source="T3_Soltar_Garfos" target="P3_Pensando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1801" y="582" curvePoint="false"/>
+            <arcpath id="001" x="1878" y="474" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a39" source="T3_Soltar_Garfos" target="Garfo3">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1792" y="577" curvePoint="false"/>
+            <arcpath id="001" x="1585" y="483" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a40" source="T3_Soltar_Garfos" target="Garfo4">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1791" y="587" curvePoint="false"/>
+            <arcpath id="001" x="1631" y="582" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a41" source="P4_Pensando" target="T4_Ficar_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1943" y="767" curvePoint="false"/>
+            <arcpath id="001" x="2031" y="692" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a42" source="T4_Ficar_Faminto" target="P4_Faminto">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2032" y="682" curvePoint="false"/>
+            <arcpath id="001" x="1676" y="672" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a43" source="P4_Faminto" target="T4_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1648" y="664" curvePoint="false"/>
+            <arcpath id="001" x="1426" y="542" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a44" source="Garfo4" target="T4_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1602" y="578" curvePoint="false"/>
+            <arcpath id="001" x="1427" y="532" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a45" source="Garfo0" target="T4_Pegar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1166" y="513" curvePoint="false"/>
+            <arcpath id="001" x="1416" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a46" source="T4_Pegar_Garfos" target="P4_Comendo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1422" y="552" curvePoint="false"/>
+            <arcpath id="001" x="1460" y="628" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a47" source="P4_Comendo" target="T4_Soltar_Garfos">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1475" y="654" curvePoint="false"/>
+            <arcpath id="001" x="1582" y="832" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a48" source="T4_Soltar_Garfos" target="P4_Pensando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1591" y="837" curvePoint="false"/>
+            <arcpath id="001" x="1917" y="779" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a49" source="T4_Soltar_Garfos" target="Garfo4">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1587" y="822" curvePoint="false"/>
+            <arcpath id="001" x="1615" y="596" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a50" source="T4_Soltar_Garfos" target="Garfo0">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1581" y="842" curvePoint="false"/>
+            <arcpath id="001" x="1163" y="521" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
