@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="C1_Aguardando_Item">
+            <graphics>
+                <position x="825.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>C1_Aguardando_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="C1_Consumindo">
+            <graphics>
+                <position x="1005.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>C1_Consumindo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="C1_Retirando">
+            <graphics>
+                <position x="780.0" y="690.0"/>
+            </graphics>
+            <name>
+                <value>C1_Retirando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="C2_Aguardando_Item">
+            <graphics>
+                <position x="960.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>C2_Aguardando_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="C2_Consumindo">
+            <graphics>
+                <position x="1110.0" y="750.0"/>
+            </graphics>
+            <name>
+                <value>C2_Consumindo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="C2_Retirando">
+            <graphics>
+                <position x="960.0" y="795.0"/>
+            </graphics>
+            <name>
+                <value>C2_Retirando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Itens_Disponiveis">
+            <graphics>
+                <position x="615.0" y="585.0"/>
+            </graphics>
+            <name>
+                <value>Itens_Disponiveis</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Aguardando_Item">
+            <graphics>
+                <position x="540.0" y="360.0"/>
+            </graphics>
+            <name>
+                <value>P1_Aguardando_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Depositando">
+            <graphics>
+                <position x="735.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>P1_Depositando</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P1_Produzindo">
+            <graphics>
+                <position x="705.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>P1_Produzindo</value>
+                <graphics>
+                    <offset x="-5.0" y="14.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Aguardando_Item">
+            <graphics>
+                <position x="600.0" y="150.0"/>
+            </graphics>
+            <name>
+                <value>P2_Aguardando_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Depositando">
+            <graphics>
+                <position x="675.0" y="200.0"/>
+            </graphics>
+            <name>
+                <value>P2_Depositando</value>
+                <graphics>
+                    <offset x="14.0" y="2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P2_Produzindo">
+            <graphics>
+                <position x="990.0" y="180.0"/>
+            </graphics>
+            <name>
+                <value>P2_Produzindo</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Vagas_Disponiveis">
+            <graphics>
+                <position x="1020.0" y="360.0"/>
+            </graphics>
+            <name>
+                <value>Vagas_Disponiveis</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="T1_Produzir">
+            <graphics>
+                <position x="600.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>T1_Produzir</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1_Signal_Vaga_INVERTIDO">
+            <graphics>
+                <position x="780.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>T1_Signal_Vaga_INVERTIDO</value>
+                <graphics>
+                    <offset x="158.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1_Wait_Item_INVERTIDO">
+            <graphics>
+                <position x="615.0" y="435.0"/>
+            </graphics>
+            <name>
+                <value>T1_Wait_Item_INVERTIDO</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Produzir">
+            <graphics>
+                <position x="780.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>T2_Produzir</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Signal_Vaga_INVERTIDO">
+            <graphics>
+                <position x="1020.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>T2_Signal_Vaga_INVERTIDO</value>
+                <graphics>
+                    <offset x="-6.0" y="-31.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T2_Wait_Item_INVERTIDO">
+            <graphics>
+                <position x="360.0" y="335.0"/>
+            </graphics>
+            <name>
+                <value>T2_Wait_Item_INVERTIDO</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Consumir">
+            <graphics>
+                <position x="915.0" y="645.0"/>
+            </graphics>
+            <name>
+                <value>T3_Consumir</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Signal_Vaga">
+            <graphics>
+                <position x="945.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>T3_Signal_Vaga</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3_Wait_Item">
+            <graphics>
+                <position x="795.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>T3_Wait_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Consumir">
+            <graphics>
+                <position x="1065.0" y="795.0"/>
+            </graphics>
+            <name>
+                <value>T4_Consumir</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Signal_Vaga">
+            <graphics>
+                <position x="1095.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>T4_Signal_Vaga</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4_Wait_Item">
+            <graphics>
+                <position x="795.0" y="795.0"/>
+            </graphics>
+            <name>
+                <value>T4_Wait_Item</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="a1" source="P1_Produzindo" target="T1_Produzir">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="704" y="259" curvePoint="false"/>
+            <arcpath id="001" x="616" y="312" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a10" source="T2_Produzir" target="P2_Aguardando_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="786" y="177" curvePoint="false"/>
+            <arcpath id="001" x="626" y="163" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a11" source="P2_Aguardando_Item" target="T2_Wait_Item_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="600" y="171" curvePoint="false"/>
+            <arcpath id="001" x="377" y="339" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a12" source="Itens_Disponiveis" target="T2_Wait_Item_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="616" y="586" curvePoint="false"/>
+            <arcpath id="001" x="376" y="353" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a13" source="T2_Wait_Item_INVERTIDO" target="P2_Depositando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="377" y="346" curvePoint="false"/>
+            <arcpath id="001" x="673" y="217" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a14" source="P2_Depositando" target="T2_Signal_Vaga_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="701" y="215" curvePoint="false"/>
+            <arcpath id="001" x="1026" y="282" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a15" source="T2_Signal_Vaga_INVERTIDO" target="Vagas_Disponiveis">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1032" y="297" curvePoint="false"/>
+            <arcpath id="001" x="1032" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a16" source="T2_Signal_Vaga_INVERTIDO" target="P2_Produzindo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1032" y="267" curvePoint="false"/>
+            <arcpath id="001" x="1007" y="205" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a17" source="C1_Aguardando_Item" target="T3_Wait_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="830" y="520" curvePoint="false"/>
+            <arcpath id="001" x="807" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a18" source="Itens_Disponiveis" target="T3_Wait_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="641" y="595" curvePoint="false"/>
+            <arcpath id="001" x="801" y="582" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a19" source="T3_Wait_Item" target="C1_Retirando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="807" y="597" curvePoint="false"/>
+            <arcpath id="001" x="794" y="687" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a2" source="T1_Produzir" target="P1_Aguardando_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="606" y="312" curvePoint="false"/>
+            <arcpath id="001" x="562" y="360" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a20" source="C1_Retirando" target="T3_Consumir">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="806" y="697" curvePoint="false"/>
+            <arcpath id="001" x="921" y="657" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a21" source="T3_Consumir" target="C1_Consumindo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="931" y="657" curvePoint="false"/>
+            <arcpath id="001" x="1003" y="619" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a22" source="C1_Consumindo" target="T3_Signal_Vaga">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1010" y="598" curvePoint="false"/>
+            <arcpath id="001" x="961" y="507" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a23" source="T3_Signal_Vaga" target="Vagas_Disponiveis">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="957" y="492" curvePoint="false"/>
+            <arcpath id="001" x="1024" y="384" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a24" source="T3_Signal_Vaga" target="C1_Aguardando_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="951" y="507" curvePoint="false"/>
+            <arcpath id="001" x="851" y="507" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a25" source="C2_Aguardando_Item" target="T4_Wait_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="958" y="738" curvePoint="false"/>
+            <arcpath id="001" x="812" y="802" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a26" source="Itens_Disponiveis" target="T4_Wait_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="636" y="608" curvePoint="false"/>
+            <arcpath id="001" x="801" y="807" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a27" source="T4_Wait_Item" target="C2_Retirando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="811" y="812" curvePoint="false"/>
+            <arcpath id="001" x="957" y="807" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a28" source="C2_Retirando" target="T4_Consumir">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="986" y="807" curvePoint="false"/>
+            <arcpath id="001" x="1071" y="807" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a29" source="T4_Consumir" target="C2_Consumindo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1081" y="807" curvePoint="false"/>
+            <arcpath id="001" x="1112" y="773" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a3" source="P1_Aguardando_Item" target="T1_Wait_Item_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="562" y="383" curvePoint="false"/>
+            <arcpath id="001" x="621" y="447" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a30" source="C2_Consumindo" target="T4_Signal_Vaga">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1119" y="747" curvePoint="false"/>
+            <arcpath id="001" x="1107" y="687" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a31" source="T4_Signal_Vaga" target="Vagas_Disponiveis">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1107" y="657" curvePoint="false"/>
+            <arcpath id="001" x="1035" y="386" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a32" source="T4_Signal_Vaga" target="C2_Aguardando_Item">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1101" y="672" curvePoint="false"/>
+            <arcpath id="001" x="985" y="725" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a4" source="Itens_Disponiveis" target="T1_Wait_Item_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="627" y="582" curvePoint="false"/>
+            <arcpath id="001" x="627" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a5" source="T1_Wait_Item_INVERTIDO" target="P1_Depositando">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="631" y="447" curvePoint="false"/>
+            <arcpath id="001" x="733" y="407" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a6" source="P1_Depositando" target="T1_Signal_Vaga_INVERTIDO">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="754" y="388" curvePoint="false"/>
+            <arcpath id="001" x="786" y="332" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a7" source="T1_Signal_Vaga_INVERTIDO" target="Vagas_Disponiveis">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="796" y="327" curvePoint="false"/>
+            <arcpath id="001" x="1017" y="369" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a8" source="T1_Signal_Vaga_INVERTIDO" target="P1_Produzindo">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="787" y="322" curvePoint="false"/>
+            <arcpath id="001" x="727" y="262" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="a9" source="P2_Produzindo" target="T2_Produzir">
+            <graphics/>
+            <inscription>
+                <value/>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="987" y="190" curvePoint="false"/>
+            <arcpath id="001" x="796" y="177" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
